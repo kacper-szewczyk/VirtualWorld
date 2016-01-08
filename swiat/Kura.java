@@ -9,7 +9,7 @@ public class Kura extends Zwierze {
 	public Kura() {
 	}
 	
-	public Kura(WirtualnySwiat wirtualnySwiat, Polozenie polozenie) {
+	public Kura(WirtualnySwiat swiat, Polozenie polozenie) {
 		sila = 1;
 		inicjatywa = 5;
 		this.polozenie = polozenie;

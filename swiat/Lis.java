@@ -9,7 +9,7 @@ public static final char znak = 'L';
 	public Lis() {
 	}
 	
-	public Lis(WirtualnySwiat wirtualnySwiat, Polozenie polozenie) {
+	public Lis(WirtualnySwiat swiat, Polozenie polozenie) {
 		sila = 3;
 		inicjatywa = 7;
 		this.polozenie = polozenie;

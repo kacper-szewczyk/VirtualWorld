@@ -7,7 +7,7 @@ public class Trawa extends Roslina {
 	public Trawa() {
 	}
 	
-	public Trawa(WirtualnySwiat wirtualnySwiat, Polozenie polozenie) {
+	public Trawa(WirtualnySwiat swiat, Polozenie polozenie) {
 		sila = 0;
 		this.polozenie = polozenie;
 		this.swiat = swiat;

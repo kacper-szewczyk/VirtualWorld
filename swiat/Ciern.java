@@ -9,7 +9,7 @@ public class Ciern extends Roslina {
 	public Ciern() {
 	}
 	
-	public Ciern(WirtualnySwiat wirtualnySwiat, Polozenie polozenie) {
+	public Ciern(WirtualnySwiat swiat, Polozenie polozenie) {
 		sila = 2;
 		this.polozenie = polozenie;
 		this.swiat = swiat;

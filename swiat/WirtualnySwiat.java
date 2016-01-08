@@ -227,7 +227,7 @@ public class WirtualnySwiat {
 		Organizm nowyOrganizm = null;
 		switch (znak) {
 		case Wilk.znak:
-			nowyOrganizm = new Wilk();
+			nowyOrganizm = new Wilk(this, polozenie);
 			break;
 		case Owca.znak:
 			nowyOrganizm = new Owca(this, polozenie);
